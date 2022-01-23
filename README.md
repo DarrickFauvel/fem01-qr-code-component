@@ -41,13 +41,11 @@ I used relative font sizing instead of pixels.
 
 ```css
 html {
-  font-size: 62.5% // Makes 1rem equal to 10px
-;
+  font-size: 62.5%; // Makes 1rem equal to 10px
 }
 
 body {
-  font-size: 1.5rem // Equivalent to 15px
-;
+  font-size: 1.5rem; // Equivalent to 15px
 }
 ```
 
