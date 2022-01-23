@@ -49,5 +49,5 @@ body {
 
 ## Author
 
-- Website - [Darrick Fauvel](https://github.com/DarrickFauvel)
+- Website - [darrickfauvel.com](https://www.darrickfauvel.com)
 - Frontend Mentor - [@DarrickFauvel](https://www.frontendmentor.io/profile/DarrickFauvel)
