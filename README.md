@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-html-css-and-figma-dkiZ-xoL4](https://www.frontendmentor.io/solutions/qr-code-component-html-css-and-figma-dkiZ-xoL4)
-- Live Site URL: [https://darrickfauvel.github.io/fem01-qr-code-component/](https://darrickfauvel.github.io/fem01-qr-code-component/)
+- Live Site URL: [https://fem01-qr-code-component-drrck.netlify.app/](https://fem01-qr-code-component-drrck.netlify.app/)
 
 ## My process
 
