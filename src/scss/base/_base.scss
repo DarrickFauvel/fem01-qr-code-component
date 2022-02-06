@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+body {
+  position: relative;
+  background-color: var(--color-light-gray);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}

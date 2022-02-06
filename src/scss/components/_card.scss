@@ -1,0 +1,29 @@
+.card {
+  background-color: var(--color-white);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  max-width: 32rem;
+  margin-top: 1rem;
+
+  &__image img {
+    border-radius: 0.8rem;
+  }
+
+  &__body {
+    text-align: center;
+    margin: 2rem;
+
+    & h1 {
+      color: var(--color-dark-blue);
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    & p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--color-grayish-blue);
+    }
+  }
+}

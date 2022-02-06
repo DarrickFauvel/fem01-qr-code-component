@@ -1,0 +1,30 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  opacity: 0.2;
+  z-index: 10;
+
+  .mock-mobile {
+    // border: 2px solid red;
+
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+
+  .mock-desktop {
+    display: none;
+
+    @media (min-width: 992px) {
+      display: block;
+      border: 2px solid red;
+    }
+  }
+}
