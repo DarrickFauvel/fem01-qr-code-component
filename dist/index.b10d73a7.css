@@ -1,0 +1,107 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap";
+:root {
+  font-size: 62.5%;
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* For frameworks React & Next */
+#root,
+#__next {
+  isolation: isolate;
+}
+body {
+  background-color: var(--color-light-gray);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.card {
+  background-color: var(--color-white);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  max-width: 32rem;
+}
+.card__image img {
+  border-radius: 0.8rem;
+}
+.card__body {
+  text-align: center;
+  margin: 1.9rem;
+  line-height: 1.3;
+}
+.card__body h1 {
+  color: var(--color-dark-blue);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.card__body p {
+  color: var(--color-grayish-blue);
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=index.b10d73a7.css.map */
