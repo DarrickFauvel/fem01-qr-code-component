@@ -9,6 +9,8 @@
   }
 
   &__body {
+    display: grid;
+    gap: calc((16 / 16) * 1em);
     text-align: center;
     margin: 1.9rem;
     line-height: 1.3;
