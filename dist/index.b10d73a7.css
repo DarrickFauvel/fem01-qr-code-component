@@ -103,13 +103,13 @@ body {
   margin-inline: 1.25em;
 }
 .main {
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
+  margin-top: 5rem;
 }
 .footer {
-  display: none;
+  display: grid;
+  place-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+  min-height: 5rem;
 }
 /*# sourceMappingURL=index.b10d73a7.css.map */
