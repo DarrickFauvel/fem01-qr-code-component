@@ -55,10 +55,13 @@ h6 {
   isolation: isolate;
 }
 body {
+  display: grid;
+  place-content: center;
   background-color: var(--color-light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
+  min-height: 100vh;
 }
 .card {
   display: grid;
@@ -98,16 +101,7 @@ body {
   color: #3e52a3;
 }
 .container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  margin-inline: 1.25em;
 }
 .footer {
   display: none;
