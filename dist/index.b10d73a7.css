@@ -61,7 +61,6 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  min-height: 100vh;
 }
 .card {
   display: grid;
@@ -103,8 +102,12 @@ body {
 .container {
   margin-inline: 1.25em;
 }
+.main {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
 .footer {
-  display: none;
   text-align: center;
   padding: 2rem;
 }
