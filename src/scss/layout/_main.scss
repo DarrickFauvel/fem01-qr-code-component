@@ -1,6 +1,8 @@
 .main {
-}
-
-.main.footer-height-offset {
-  margin-top: 5rem;
+  margin-top: 2rem;
+  &.footer-height-offset {
+    @media (min-width: 576px) {
+      margin-top: 4rem;
+    }
+  }
 }
