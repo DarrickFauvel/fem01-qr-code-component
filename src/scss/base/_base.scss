@@ -2,7 +2,8 @@
 
 body {
   display: grid;
-  place-content: center;
+  justify-content: center;
+  align-content: flex-start;
 
   background-color: var(--color-light-gray);
   font-family: 'Outfit', sans-serif;
