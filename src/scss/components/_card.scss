@@ -23,6 +23,7 @@
     & .card__text {
       color: var(--color-grayish-blue);
       margin-inline: calc((16 / 16) * 1em);
+      line-height: calc(19 / 15);
     }
   }
 }
