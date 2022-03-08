@@ -1,4 +1,6 @@
 .card {
+  display: grid;
+  gap: calc((24 / 16) * 1em);
   background-color: var(--color-white);
   padding: 1.6rem;
   border-radius: 1.6rem;
