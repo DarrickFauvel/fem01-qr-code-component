@@ -5,7 +5,7 @@
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 
   &__image img {
-    border-radius: 0.8rem;
+    border-radius: calc((10 / 16) * 1em);
   }
 
   &__body {
