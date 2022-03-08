@@ -86,8 +86,9 @@ body {
 }
 .card__body .card__text {
   color: var(--color-grayish-blue);
-  margin-inline: 1em;
   line-height: 1.2666666667;
+  margin-inline: 1em;
+  margin-bottom: 1.5em;
 }
 .attribution {
   font-size: 1.1rem;
