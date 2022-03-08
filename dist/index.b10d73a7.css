@@ -102,7 +102,7 @@ body {
 .container {
   margin-inline: 1.25em;
 }
-.main {
+.main.footer-height-offset {
   margin-top: 5rem;
 }
 .footer {
